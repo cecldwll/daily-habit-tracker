@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Verve;
+  src: url(../assets/Verve.ttf);
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: #1c1d21;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #a03b49;
+  padding: 1em 0;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu li a {
+  color: #e7e393;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.nav-menu li a:hover {
+  color: #e7e393;
+}
+.container {
+  max-width: 600px;
+  margin: 2em auto;
+  background-color: #425A6C;
+  padding: 2em;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.btn {
+  background-color: #f4c95d;
+  color: #1c1d21;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #e7e393;
+}
+h1, h2 {
+  font-family: "Verve", serif;
+  font-size: 3em;
+  color: #e7e393;
+  margin: 0;
+}
+input[type="text"] {
+  padding: 0.5em;
+  width: 80%;
+  margin-top: 1em;
+  border-radius: 5px;
+  border: 1px solid #a03b49;
+  background-color: #e7e393;
+  color: #1c1d21;
+}
+label {
+  display: block;
+  margin-top: 0.5em;
+  color: #fff;
+}
+#quote {
+  font-style: italic;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #e7e393;
+  color: #1c1d21;
+  border-radius: 5px;
+}
+#habit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
