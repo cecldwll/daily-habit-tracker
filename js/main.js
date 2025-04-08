@@ -1,10 +1,11 @@
+/* js/main.js */
 document.addEventListener("DOMContentLoaded", () => {
   const quoteEl = document.getElementById("quote");
 
   fetch("https://thequoteshub.com/api/random-quote")
   .then((response) => response.json())
   .then((data) => {
-    const quote = data.text;  // <- THIS IS THE FIX
+    const quote = data.text;
     const author = data.author;
     document.getElementById("quote").textContent = `"${quote}" — ${author}`;
   })
