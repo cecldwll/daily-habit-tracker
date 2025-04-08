@@ -87,3 +87,36 @@ label {
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  .container {
+    margin: 1em;
+    padding: 1.5em;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  h1, h2 {
+    font-size: 2em;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+  .btn {
+    font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    margin-top: 1em;
+  }
+  #quote {
+    font-size: 0.9em;
+    padding: 0.8em;
+  }
+}
